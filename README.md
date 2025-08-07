@@ -1,1 +1,9 @@
-# Elevate3
+SELECT * FROM table_name;
+SELECT column1, column2 FROM table_name;
+SELECT * FROM table_name WHERE column1 = 'value';
+SELECT * FROM table_name WHERE column2 BETWEEN 10 AND 20;
+SELECT * FROM table_name WHERE column3 LIKE 'A%';
+SELECT * FROM table_name WHERE column4 = 'X' AND column5 > 100;
+SELECT * FROM table_name ORDER BY column1 DESC;
+SELECT * FROM table_name LIMIT 5;
+SELECT * FROM table_name ORDER BY column2 ASC LIMIT 10;
